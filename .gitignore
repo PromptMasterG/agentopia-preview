@@ -1,0 +1,13 @@
+# Local notes and tooling never go in the public repo
+PUBLISHING.md
+check.mjs
+node_modules/
+scratch/
+.env
+.env.*
+*.blend
+*.blend1
+*.glb
+*.zip
+.DS_Store
+Thumbs.db

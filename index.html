@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agentopia | A command post for Claude Code agents</title>
+<meta name="description" content="Agentopia puts every Claude Code agent on one live map and turns their questions into cards you can answer one at a time. A preview, with simulated demo footage.">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#070b14">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self'; media-src 'self'; style-src 'self'; script-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'">
+<link rel="canonical" href="https://promptmasterg.github.io/agentopia-preview/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Agentopia: a command post for Claude Code agents">
+<meta property="og:description" content="Every agent on one live map. Their questions as cards you answer one at a time. Slow down only for the dangerous ones.">
+<meta property="og:url" content="https://promptmasterg.github.io/agentopia-preview/">
+<meta property="og:image" content="https://promptmasterg.github.io/agentopia-preview/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="styles.css">
+<script src="site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="bar wrap">
+  <a class="mark" href="#top" aria-label="Agentopia, back to top">AGENTOPIA<sup>™</sup></a>
+  <nav class="bar-nav" aria-label="Page sections">
+    <a class="bar-link" href="#what">What it does</a>
+    <a class="bar-link" href="#labels">Risk labels</a>
+    <a class="bar-link" href="#status">Status</a>
+    <a class="btn btn-sm" href="#early">Early access</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <div class="hero-wrap" id="top">
+    <section class="hero wrap" aria-labelledby="h1">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pill">Preview</span> Built by Dr. Xanqunnes</p>
+        <h1 id="h1">A command post for your Claude Code agents.</h1>
+        <p class="lede">See every agent at work on one live map. Answer what they ask, one card at a time. Slow down only for the requests that can hurt.</p>
+        <div class="cta-row">
+          <a class="btn" href="#early">Get early access</a>
+          <a class="btn btn-ghost" href="#watch">Watch the 37-second trailer</a>
+        </div>
+        <p class="fine">The footage on this page is a demo. The agents and chats in it are simulated.</p>
+      </div>
+
+      <figure class="stage">
+        <video class="phone-video" data-loop autoplay muted loop playsinline preload="metadata"
+               width="576" height="1234" poster="assets/img/hero-poster.jpg"
+               aria-label="Looping demo of the Deck. Routine requests are allowed with a tap, and a danger card needs a held press.">
+          <source src="assets/video/hero-deck.mp4" type="video/mp4">
+        </video>
+        <img class="stage-card" src="assets/img/phone-danger.webp" width="720" height="1501"
+             alt="A Deck card marked Danger: Publishes 3 commits to the shared remote. Other people can see them. No undo once it has run.">
+        <figcaption class="sr-only">The Deck, shown with simulated agents.</figcaption>
+      </figure>
+    </section>
+  </div>
+
+  <section class="wrap band" aria-labelledby="h-problem">
+    <h2 id="h-problem" class="h2 narrow">Every extra session is another place waiting for you.</h2>
+    <div class="two">
+      <p>Run a few Claude Code sessions at once and the questions pile up across terminals. Most are routine. A few are not.</p>
+      <p>Agentopia gathers them in one stack and marks each by how much damage it could do. The routine ones take a second. The rest get your attention.</p>
+    </div>
+  </section>
+
+  <section class="wrap band" id="what" aria-labelledby="h-what">
+    <p class="kicker">What it does</p>
+    <h2 id="h-what" class="h2">A map, a deck and a chat.</h2>
+
+    <div class="feat">
+      <article class="card f-deck">
+        <h3 class="h3">The Deck</h3>
+        <p>One card at a time, each written in plain language. Allow it, deny it, ask about it, or save it for later.</p>
+        <ul class="facts">
+          <li><strong>Bundles.</strong> Matching requests arrive together, so one tap answers both.</li>
+          <li><strong>Rules.</strong> Allow the same thing often enough and it offers to stop asking. You can switch a rule off any time.</li>
+          <li><strong>Undo.</strong> You get five seconds to take an answer back.</li>
+        </ul>
+        <div class="fan">
+          <img class="fan-a" src="assets/img/phone-routine.webp" width="720" height="1501" loading="lazy"
+               alt="A Deck card marked Routine: Runs this project’s tests. Allowed 31 of 31 times in 6 days. Never denied.">
+          <img class="fan-b" src="assets/img/phone-danger.webp" width="720" height="1501" loading="lazy"
+               alt="A Deck card marked Danger: Publishes 3 commits to the shared remote. No undo once it has run.">
+        </div>
+      </article>
+
+      <article class="card f-map">
+        <h3 class="h3">The live map</h3>
+        <p>Every agent has a place and a status. See who is working, who is thinking and who is waiting on you, across every project.</p>
+        <video class="map-video" data-loop muted loop playsinline preload="none"
+               width="720" height="540" poster="assets/img/map-poster.jpg"
+               aria-label="Looping view of the live map, a small town where each agent works in its own place.">
+          <source src="assets/video/map-loop.mp4" type="video/mp4">
+        </video>
+      </article>
+
+      <article class="card f-chat">
+        <div class="f-chat-copy">
+          <h3 class="h3">Ask before you decide</h3>
+          <p>Not sure what a request does? Open a chat with the agent and ask. The replies in the demo are simulated.</p>
+        </div>
+        <img class="chat-img" src="assets/img/phone-chat.webp" width="720" height="1501" loading="lazy"
+             alt="A chat with an agent called Courier, listing the requests waiting for an answer.">
+      </article>
+    </div>
+  </section>
+
+  <section class="wrap band" id="labels" aria-labelledby="h-labels">
+    <p class="kicker">How it sorts requests</p>
+    <h2 id="h-labels" class="h2 narrow">Every request wears one of three labels.</h2>
+    <p class="lede-sm">The label comes from what the command can do. It also decides how the card asks for your answer.</p>
+
+    <div class="lanes">
+      <article class="lane lane-ok">
+        <p class="lane-head"><svg class="mk mk-ok" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="6"/></svg> Routine</p>
+        <p class="lane-quote">Shows which files changed. Changes nothing.</p>
+        <p class="lane-ask">A tap or a swipe allows it. The card shows how often you have allowed it before.</p>
+      </article>
+      <article class="lane lane-warn">
+        <p class="lane-head"><svg class="mk mk-warn" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><polygon points="8,2 15,14 1,14"/></svg> Careful</p>
+        <p class="lane-quote">Installs a package from the internet into this project.</p>
+        <p class="lane-ask">Read it first. Every card can show the exact command that will run.</p>
+      </article>
+      <article class="lane lane-danger">
+        <p class="lane-head"><svg class="mk mk-danger" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><polygon points="8,1 15,8 8,15 1,8"/></svg> Danger</p>
+        <p class="lane-quote">Publishes 3 commits to the shared remote. Other people can see them.</p>
+        <p class="lane-undo">No undo once it has run.</p>
+        <p class="lane-ask">Needs a one-second hold. A tap or a swipe will not do it.</p>
+      </article>
+    </div>
+    <p class="fine">The wording above comes from the demo’s sample data.</p>
+  </section>
+
+  <section class="wrap band watch" id="watch" aria-labelledby="h-watch">
+    <div class="watch-copy">
+      <p class="kicker">Trailer</p>
+      <h2 id="h-watch" class="h2">See it in 37 seconds.</h2>
+      <p>The trailer goes through the map, the Deck and the chat. Everything in it is demo footage with simulated agents and made-up chats. It has no sound.</p>
+    </div>
+    <video class="trailer" controls preload="none" playsinline width="720" height="1280"
+           poster="assets/img/trailer-poster.jpg" aria-label="The Agentopia trailer, 37 seconds, no sound.">
+      <source src="assets/video/trailer.mp4" type="video/mp4">
+      <a href="assets/video/trailer.mp4">Download the trailer</a>
+    </video>
+  </section>
+
+  <section class="wrap band" id="status" aria-labelledby="h-status">
+    <p class="kicker">Status</p>
+    <h2 id="h-status" class="h2">Where it stands.</h2>
+    <p class="lede-sm">Agentopia is a preview. This is what works and what does not yet.</p>
+    <dl class="status">
+      <div class="row"><dt class="chip chip-see">You can see</dt><dd>This demo: the map, the Deck and the chat, running on simulated agents.</dd></div>
+      <div class="row"><dt class="chip chip-test">Early testing</dt><dd>Reading real Claude Code sessions through hooks, on the developer’s own computer.</dd></div>
+      <div class="row"><dt class="chip chip-not">Not ready</dt><dd>Answering real requests from the Deck. In the demo, the Deck and the chat run on simulated data.</dd></div>
+      <div class="row"><dt class="chip chip-pub">Not published</dt><dd>The source code. This site is all that is published.</dd></div>
+    </dl>
+  </section>
+
+  <section class="wrap band early" id="early" aria-labelledby="h-early">
+    <div class="early-copy">
+      <p class="kicker">Early access</p>
+      <h2 id="h-early" class="h2">Want a demo seat when they open?</h2>
+      <p>Demo seats will be limited. Leave your email and I will write when they open. The questions help me build the right thing first.</p>
+      <p class="alt-contact">Prefer LinkedIn? <a href="https://www.linkedin.com/in/dr-xanqunnes-nursingh-6117a7229" rel="noopener">Message Dr. Xanqunnes</a>.</p>
+    </div>
+
+    <div class="signup">
+      <p class="signup-lead">A short Google Form. It asks for:</p>
+      <ul class="ask">
+        <li>Your email</li>
+        <li>How many Claude Code sessions you run at once</li>
+        <li>What it should do first <span class="opt">Optional</span></li>
+        <li>Your biggest problem running several agents <span class="opt">Optional</span></li>
+      </ul>
+      <a class="btn" href="https://forms.gle/TYbwjou2YU1zhNTi7" target="_blank" rel="noopener noreferrer">Tell me when demo seats open</a>
+      <p class="fine">Opens Google Forms in a new tab. Google stores the answers under its own privacy policy. I use your email only to write to you about Agentopia. Reply “remove” to any message and I will delete it.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="wrap foot">
+  <p class="foot-mark">AGENTOPIA<sup>™</sup></p>
+  <p>© 2026 Dr. Xanqunnes. All rights reserved. Agentopia is built and owned by Dr. Xanqunnes.</p>
+  <p>Source code is not published. Footage on this page is simulated demo footage.</p>
+  <p>Not affiliated with or endorsed by Anthropic. “Claude Code” is named only to say what Agentopia works with.</p>
+</footer>
+
+</body>
+</html>
